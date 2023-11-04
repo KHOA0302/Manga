@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  min-height: 60vh;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.search-title {
+  display: flex;
+  gap: 8;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.search-empty {
+  text-align: center;
+  margin-top: 10%;
+}

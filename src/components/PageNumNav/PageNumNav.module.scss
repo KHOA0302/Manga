@@ -1,0 +1,40 @@
+.genres-total-pages {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.page-arrow-btn {
+  outline: none;
+  background-color: white;
+  border: 0.6px solid #dbdbdb;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  font-weight: 700;
+  font-size: 2.6rem;
+  cursor: pointer;
+}
+
+.pages-option {
+  display: flex;
+  gap: 8px;
+  margin: 0 8px;
+  .pages-item {
+    .page-num {
+      outline: none;
+      background-color: white;
+      border: 0.6px solid #dbdbdb;
+      border-radius: 100%;
+      width: 42px;
+      height: 42px;
+      font-size: 1.6rem;
+      cursor: pointer;
+      &.active {
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

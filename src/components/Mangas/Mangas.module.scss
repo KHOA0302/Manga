@@ -1,0 +1,15 @@
+.mangas-cl {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(18, calc(20%));
+  grid-template-rows: repeat(2, auto);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.page {
+  overflow: hidden;
+  grid-template-columns: repeat(5, calc(20%));
+  grid-template-rows: auto;
+}

@@ -1,0 +1,33 @@
+.footer {
+  width: 70%;
+  margin: auto;
+}
+
+.wrapper {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.external-link {
+  margin-bottom: 12px;
+  .option {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    .item {
+      .item-link {
+        color: #cccccc;
+        scale: 1.2;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.licenses {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  pointer-events: none;
+  color: #cccccc;
+}

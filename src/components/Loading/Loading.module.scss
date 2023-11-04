@@ -1,0 +1,15 @@
+.wrapper {
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .spin-img {
+    width: 16%;
+    max-height: 100%;
+  }
+}

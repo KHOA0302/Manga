@@ -1,0 +1,143 @@
+.wrapper {
+  width: 100%;
+  background: rgb(254, 59, 66);
+  background: linear-gradient(
+    180deg,
+    rgb(249, 141, 145) 0%,
+    rgb(255, 255, 255) 50%
+  );
+  padding-top: 60px;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.manga-info {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.info-thumb {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+  }
+}
+
+.info-main {
+  flex: 2;
+}
+
+.info-name {
+  
+  margin-bottom: 12px;
+}
+
+.info-otherName {
+  margin-bottom: 12px;
+}
+
+.info-genres-option {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.info-creator {
+  margin-bottom: 12px;
+}
+
+.info-rating-option {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  .info-rating-item {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    i {
+      &.heart {
+        color: red;
+      }
+    }
+    p {
+    }
+  }
+}
+
+.info-read {
+}
+
+.info-para {
+  padding: 4px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  p {
+    word-spacing: 0.6rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+.manga-chapters {
+}
+
+.manga-title {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  i {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+}
+
+.manga-subchapters-wrapper {
+  margin-bottom: 36px;
+}
+
+.manga-subchapter-option {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  .manga-subchapter-item {
+    border: 1.6px solid #dbdbdb;
+    border-style: dashed;
+    border-radius: 12px;
+    &.active {
+      border: 1.6px solid var(--primary-color);
+      border-style: dashed;
+      border-radius: 12px;
+    }
+  }
+}
+
+.manga-chapters-main {
+}
+
+.manga-chapter-main-option {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(4, 1fr);
+
+  .manga-chapter-main-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
